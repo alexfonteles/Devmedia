@@ -1,0 +1,27 @@
+.produtos-expo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Card-produtos{
+    background-color: rgb(233, 226, 226);
+    width: 482px;
+    margin: 10px 15px;
+    
+}
+
+.Card-produtos img {
+    width: 400px;
+    height: 150px;
+}
+
+.Card-produtos h4 {
+    font-size: 30px;
+}
+
+.Card-produtos p {
+font-size: 25px;
+font-weight: bold;
+}

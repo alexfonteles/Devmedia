@@ -1,0 +1,4 @@
+.card-contato{
+    display: flex;
+    flex-direction: column;
+}

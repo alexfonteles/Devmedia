@@ -1,0 +1,26 @@
+.secaoBanner{
+    background-image: url(/public/assets/imagens/capa.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+}
+
+.text-box{
+    width: 25%;
+}
+
+.secaoBanner p, h2{
+    color: #fff;
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+.secaoBanner p{
+    font-size: 30px;    
+}
+
+.secaoBanner h2{
+    font-size: 40px;
+}
