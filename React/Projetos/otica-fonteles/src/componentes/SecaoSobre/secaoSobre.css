@@ -1,11 +1,22 @@
+#sobre{
+    background-color: rgb(245, 242, 242);
+    padding-top: 50px;
+}
+
 section div img{
     width: 48%;
 }
 
-.fotoSobre1 img{
+.box-sobre-text{
+    width: 500px;
     position: relative;
+    top: 120px;
 }
 
-.fotoSobre2 img{
+.fotoSobre1 img, .fotoSobre2 img{
+    width: 500px;
+}
 
+.sobre1, .sobre2{
+    display: flex;
 }

@@ -1,4 +1,28 @@
 .card-contato{
     display: flex;
-    flex-direction: column;
+}
+
+.card-contato span{
+    color: white;
+}
+
+.secaoContatos{
+    background-color: rgb(1, 1, 29);
+    padding-top: 100px;
+}
+
+.secaoContatos img{
+    width: 20px;
+}
+
+.secaoContatos p,.secaoContatos h3,.secaoContatos h4{
+    color: white;
+}
+
+.box-contatos{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 250px;
+    width: 600px;
 }
