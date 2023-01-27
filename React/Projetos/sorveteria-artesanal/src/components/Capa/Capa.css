@@ -1,0 +1,20 @@
+.capa{
+    background-color: bisque;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+#imagem{
+    position: absolute;
+}
+
+#texto{
+    color: white;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em #333;
+    position: absolute;
+    font-size: 32px;
+    left: 190px;
+    top: 240px;
+}
