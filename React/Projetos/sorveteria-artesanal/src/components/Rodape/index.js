@@ -2,9 +2,9 @@ import './Rodape.css';
 
 function Rodape() {
   return (
-    <div className="Rodape">
-      Rodape
-    </div>
+    <footer>
+      Galeteria. Orgulhosamente desenvolvido por Alex Fonteles
+    </footer>
   );
 }
 

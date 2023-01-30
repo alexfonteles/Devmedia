@@ -1,0 +1,68 @@
+.sobre {
+    background-color: rgb(5, 5, 5);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-rodape{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.box-rodape img{
+    width: 50%;
+}
+
+.box-rodape p{
+    padding-top: 16;
+} 
+
+@media screen and (min-width: 769px)
+{
+
+    
+}
+
+
+
+@media screen and (min-width: 551px) and (max-width: 768px)
+{
+    .sobre {
+        flex-direction: column;
+    }
+    
+    .box-rodape img{
+        width: 80%;
+    }
+    
+    .box-rodape p{
+        font-size: 13px;
+    } 
+
+    .box-rodape h2{
+        font-size: 15px;
+    } 
+}
+
+
+
+@media screen and (max-width: 550px)
+{
+    .sobre {
+        flex-direction: column;
+    }
+    
+    .box-rodape img{
+        width: 80%;
+    }
+    
+    .box-rodape p{
+        font-size: 13px;
+    } 
+
+    .box-rodape h2{
+        font-size: 15px;
+    } 
+}

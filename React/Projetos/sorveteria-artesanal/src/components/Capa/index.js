@@ -4,7 +4,9 @@ function Capa() {
   return (
     <div className="capa">
         <img src='assets/banner-home.png' alt='logo'/>
-        <label id='texto'>SORVETERIA ARTESANAL</label>
+        <div className='box-capa'>
+          <h3 id='texto'>SORVETE ARTESANAL</h3>
+        </div>
     </div>
   );
 }
