@@ -23,9 +23,10 @@
 
 }
 
-.links-header ul li{
+.links-header ul li, a{
     display: flex;
-    text-decoration: none;    
+    text-decoration: none; 
+    color: black;   
 }
 
 @media screen and (min-width: 769px)
