@@ -1,27 +1,26 @@
-.sobre {
-    background-color: rgb(5, 5, 5);
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
+.banner-sobre img{
+    width: 100%;
 }
 
-.box-rodape{
-    width: 20%;
-    text-align: center;
-    margin: auto;
+.texto-sobre{
+    padding: 10px;
 }
 
-.box-rodape img{
-    width: 50%;
+#galeteria{
+    position: absolute;
+    color: white;dd
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 62px;[]
+    left: 37%;
+    top: 45%;
 }
-
-.box-rodape p{
-    padding-top: 16;
-} 
 
 @media screen and (min-width: 769px)
 {
-
+.img-sobre-double{
+    display: flex;
+}
     
 }
 
@@ -29,40 +28,12 @@
 
 @media screen and (min-width: 551px) and (max-width: 768px)
 {
-    .sobre {
-        flex-direction: column;
-    }
-    
-    .box-rodape img{
-        width: 80%;
-    }
-    
-    .box-rodape p{
-        font-size: 13px;
-    } 
 
-    .box-rodape h2{
-        font-size: 15px;
-    } 
 }
 
 
 
 @media screen and (max-width: 550px)
 {
-    .sobre {
-        flex-direction: column;
-    }
-    
-    .box-rodape img{
-        width: 80%;
-    }
-    
-    .box-rodape p{
-        font-size: 13px;
-    } 
 
-    .box-rodape h2{
-        font-size: 15px;
-    } 
 }
