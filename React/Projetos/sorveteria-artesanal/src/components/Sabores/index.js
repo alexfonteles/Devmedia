@@ -2,26 +2,27 @@ import './Sabores.css';
 
 function Sabores() {
   return (
-    <div className="Sabores">
-      <div></div>
-      <div>
+  <div className="Sabores">
         <h2>SABORES DE SORVETE</h2>
-        <div className='cj-box-sabores'>
+      <div className='cj-box-sabores'>
+        <div className='box-sabores1'>
           <div className='box-sabores'>
-            <img src='assets/sabor-oreo.png' alt='oreo'/>
-            <h3>Sorvete de Oreo</h3>
-            <p>Delicioso sorvete sabor Oreo. Uma explosão de sabor.</p>
-          </div>
-          <div className='box-sabores'>
-            <img src='assets/sabor-pistache.png' alt='logo'/>
-            <h3>Sorvete Pistache</h3>
-            <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
-          </div>
-          <div className='box-sabores'>
-            <img src='assets/sabor-cookies-avela.png' alt='logo'/>
-            <h3>Sorvete Cookies & Avelã</h3>
-            <p>O nosso melhor sorvete. Você vaiadorar o sabor.</p>
-          </div>
+              <img src='assets/sabor-oreo.png' alt='oreo'/>
+              <h3>Sorvete de Oreo</h3>
+              <p>Delicioso sorvete sabor Oreo. Uma explosão de sabor.</p>
+            </div>
+            <div className='box-sabores'>
+              <img src='assets/sabor-pistache.png' alt='logo'/>
+              <h3>Sorvete Pistache</h3>
+              <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
+            </div>
+            <div className='box-sabores'>
+              <img src='assets/sabor-cookies-avela.png' alt='logo'/>
+              <h3>Sorvete Cookies & Avelã</h3>
+              <p>O nosso melhor sorvete. Você vaiadorar o sabor.</p>
+            </div>          
+        </div>
+        <div className='box-sabores1'>
           <div className='box-sabores'>
             <img src='assets/sorbet-kiwi.png' alt='logo'/>
             <h3>Sorvete de Kiwi</h3>
@@ -39,7 +40,7 @@ function Sabores() {
           </div>
         </div>
       </div>
-      </div>  
+  </div> 
   );
 }
 

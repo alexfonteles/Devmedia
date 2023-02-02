@@ -3,20 +3,44 @@
 }
 
 .box-sabores{
+    padding: 10px;
+}
+
+.box-sabores p, .box-sabores h3{
+   position: relative;
+   bottom: 0px;
+}
+
+.Sabores{
     text-align: center;
 }
 
 @media screen and (min-width: 769px)
 {
-   
-    
+    .box-sabores{
+        border: 1px solid rgb(166, 162, 162);
+        width: 30%;
+        margin: 15px;
+        box-shadow: 10px 5px 5px rgb(94, 93, 93);
+        }
+    .box-sabores img{
+        width: 70%;
+    }   
 }
 
 
 
 @media screen and (min-width: 551px) and (max-width: 768px)
 {
-
+    .box-sabores{
+        border: 1px solid rgb(166, 162, 162);
+        width: 90%;
+        margin: 15px;
+        box-shadow: 10px 5px 5px rgb(94, 93, 93);
+        }
+    .box-sabores img{
+        width: 70%;
+    }
 }
 
 
@@ -27,6 +51,7 @@
     border: 1px solid rgb(166, 162, 162);
     width: 90%;
     margin: 15px;
+    box-shadow: 10px 5px 5px rgb(94, 93, 93);
     }
 .box-sabores img{
     width: 70%;

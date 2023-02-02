@@ -1,5 +1,6 @@
 .banner-sobre img{
     width: 100%;
+    
 }
 
 .texto-sobre{
@@ -8,16 +9,23 @@
 
 #galeteria{
     position: absolute;
-    color: white;dd
+    color: white;
     font-weight: 700;
-    text-shadow: 0.1em 0.1em #333;
-    font-size: 62px;[]
+    text-shadow: 0.1em 0.1em rgb(24, 24, 24);
+    font-size: 62px;
     left: 37%;
     top: 45%;
 }
 
 @media screen and (min-width: 769px)
 {
+
+    .banner-sobre img{
+        height: 500px;   
+    }
+    .box-sabores1{
+    display: flex;
+}
 .img-sobre-double{
     display: flex;
 }
@@ -28,12 +36,20 @@
 
 @media screen and (min-width: 551px) and (max-width: 768px)
 {
-
+#galeteria{
+    font-size: 42px;
+    left: 30%;
+    top: 25%;
+}
 }
 
 
 
 @media screen and (max-width: 550px)
 {
-
+#galeteria{
+    font-size: 32px;
+    left: 30%;
+    top: 35%;
+}
 }
